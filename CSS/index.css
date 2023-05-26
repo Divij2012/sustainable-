@@ -1,0 +1,173 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap");
+
+  body {
+    margin: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #b1 {
+    padding: 10px 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    border-radius: 4px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  #b1:hover {
+    cursor: pointer;
+  }
+
+  #b2 {
+    width: 140px;
+    height: 45px;
+    background-color: rgb(81, 220, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: red;
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  #b2:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+  }
+
+  #b {
+    color: rgb(0, 217, 255);
+  }
+
+  .navbar {
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(59, 56, 56);
+    padding:1.5%;
+  }
+
+  .Navbar a {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
+  }
+
+  .Navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+  }
+
+  .Navbar a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .li {
+    padding-left: 1270px;
+  }
+
+  body {
+    background-color: rgb(50, 108, 158);
+  }
+
+
+  li {
+    text-decoration: none;
+  }
+
+  .Vid {
+    padding: 5%;
+  }
+
+  h3 {
+    font-size: 50px;
+    color: rgb(255, 188, 188);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  p {
+    color: #ffeeb8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  img {
+    margin-left: 25px;
+    float: left;
+  }
+
+  .Goal {
+    margin-left: 350px;
+    margin-top: 150px;
+    color: rgb(151, 184, 255);
+  }
+
+  .h3 {
+    margin-left: 1000px
+  }
+
+  .Wrapper {
+    margin: 150px auto;
+    width: 70px;
+  }
+
+  .textbox {
+    color: #fff;
+  }
+
+  .textbox h2 {
+    font-size: 42px;
+  }
+
+  .textbox p {
+    font-size: 30px;
+    color: rgb(230, 170, 120);
+    margin-left: 1000px;
+    margin-right: 50px;
+  }
+
+  span {
+    margin-left: 750px;
+    color: #f5c3f5;
+  }

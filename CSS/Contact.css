@@ -1,0 +1,160 @@
+body {
+  background: rgb(151, 208, 255);
+  font-family: "Roboto", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.Sign-Up {
+  width: 460px;
+  height: 550px;
+  margin: auto;
+  background-color: white;
+  border-radius: 13px;
+  justify-content: center;
+  margin-top: 175px;
+  border: none;
+  border: 1px solid rgb(255, 255, 255);
+}
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: #000000;
+}
+h4 {
+  text-align: center;
+}
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+form input {
+  width: 400px;
+  height: 25px;
+  padding: 6px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 7px;
+  outline: none;
+}
+input[type="button"] {
+  width: 414px;
+  height: 35px;
+  margin-top: 35px;
+  border: none;
+  background-color: rgb(34, 189, 34);
+  color: #fff;
+}
+p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin-top: -10px;
+  text-decoration: none;
+}
+#b1 {
+  padding: 10px 18px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  border-radius: 4px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+}
+#b1:hover {
+  cursor: pointer;
+}
+#b2 {
+  width: 140px;
+  height: 45px;
+  background-color: rgb(81, 220, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 1px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: red;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.navbar {
+  display: flex;
+}
+#b2:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 0px;
+  cursor: pointer;
+}
+#b {
+  color: rgb(0, 217, 255);
+}
+.navbar {
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 46px;
+  background-color: rgb(59, 56, 56);
+}
+.Navbar a {
+  position: relative;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.Navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+.Navbar a:hover::after {
+  transform: scaleX(1);
+}
+.li {
+  padding-left: 1270px;
+}
+body {
+  background: rgb(151, 208, 255);
+  background-size: cover;
+}
+.Message {
+  background-color: transparent;
+  width: 330px;
+  height: 45px;
+  margin-top: 0px;
+  padding: 40px;
+}
+input {
+  background: transparent;
+}
+.placeholder {
+  color: #fff;
+}
